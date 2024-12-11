@@ -6,3 +6,9 @@ function isPrime(num) {
     return true; 
 }
 module.exports = isPrime;
+
+
+function evenOdd(num) {
+    return num % 2 === 0; 
+}
+module.exports = evenOdd;
